@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
 
 
+
 /********************************** general **********************************/
 body {
   font-family: "Cormorant Garamond";
@@ -61,6 +62,7 @@ li {
     letter-spacing: 3px;
     text-align: right;
 }
+
 
 
 /********************************** main **********************************/
