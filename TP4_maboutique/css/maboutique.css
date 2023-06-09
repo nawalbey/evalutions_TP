@@ -1,0 +1,77 @@
+body {
+  width: 70%;
+  margin: 40px auto;
+}
+.premier {
+  display: flex;
+  justify-content: space-between;
+  background-color: ghostwhite;
+}
+.vente {
+  color: rgb(226, 43, 180);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.img-aide {
+  background-image: url("../img/aide.png");
+  width: 170px;
+  height: 23px;
+}
+.img-aide p {
+  padding-left: 60px;
+  padding-top: 3px;
+}
+.aide {
+  color: rgb(1, 218, 218);
+}
+.compte {
+  text-align: center;
+  background-color: aqua;
+  width: 25%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 183, 255);
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+.accueil {
+  background-color: rgb(226, 43, 180);
+  text-align: center;
+}
+
+nav ul li {
+  text-align: center;
+  width: 25%;
+  padding: 15px 25px;
+  font-size: 20px;
+  color: white;
+}
+
+.bandeau img {
+  width: 100%;
+}
+.nous {
+  display: flex;
+}
+.paiment {
+  width: 25%;
+}
+.sommes {
+  width: 50%;
+}
+.camion {
+  width: 25%;
+}
+h2 {
+  color: rgb(9, 216, 216);
+}
+.produits {
+  display: flex;
+}
