@@ -15,8 +15,15 @@ body {
   align-items: center;
   margin-bottom: 35px;
 }
+.imglogo img {
+  transition: ease-out 1s;
+}
+.imglogo img:hover {
+  transform: rotate(360deg);
+}
 .img-aide {
   background-image: url("../img/aide.png");
+  top: 40px;
   width: 170px;
   height: 23px;
 }
@@ -74,4 +81,22 @@ h2 {
 }
 .produits {
   display: flex;
+}
+
+footer ul li {
+  text-align: center;
+  width: 25%;
+  padding: 15px 25px;
+  font-size: 20px;
+  color: white;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 183, 255);
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
 }
