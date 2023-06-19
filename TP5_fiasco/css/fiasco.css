@@ -1,23 +1,122 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  display: block;
+}
 body {
   background-color: black;
   font-family: Arial, sans-serif;
+  color: white;
 }
 ul {
   list-style-type: none;
+}
+
+.container {
+  margin: auto;
+  width: 1440px;
 }
 /************************* HEADER ***************************/
 header {
   background-image: url(../img/eggs.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 612px;
   text-transform: uppercase;
 }
 /************************* NAV  ***************************/
 
 .logo_nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
 }
 .menu {
@@ -26,10 +125,12 @@ header {
 }
 .menu li {
   padding: 5px 10px;
+  margin: 25px;
 }
 .title_header {
   color: white;
   text-align: center;
+  margin: 25px;
 }
 .title_header h2 {
   color: yellow;
@@ -37,14 +138,88 @@ header {
   margin: auto;
   height: 30px;
   text-transform: capitalize;
+  font-family: "Dancing Script", cursive;
+  margin: 25px;
+}
+.reservation {
+  padding: 0px 25px 25px 0px;
+  border: 1px solid yellow;
 }
 /************************* FIN NAV  ***************************/
 
 /************************* FIN HEADER ***************************/
 /************************* MAIN ***************************/
+.main_container {
+  margin: auto;
+  width: 1000px;
+}
+h3 {
+  color: yellow;
+  text-transform: capitalize;
+  height: 30px;
+  text-align: center;
+  margin: auto;
+  font-family: "Dancing Script", cursive;
+}
+
 /************************* ASIDE LEFT ***************************/
 /************************* SECTION 1 ***************************/
+section.section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+section.section1 .first_row,
+section.section1 .second_row {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.hambur,
+.hambur_text,
+.chiken_text,
+.chiken {
+  width: 50%;
+  padding: 20px;
+}
+.hambur {
+  border: 1px solid yellow;
+  padding: 20px 20px 0px 0px;
+  margin-top: 15px;
+}
+.chiken {
+  border: 1px solid yellow;
+  padding: 20px 0 0 20px;
+}
+section.section1 > div h3 {
+  margin: 0;
+  text-align: start;
+  text-align: center;
+}
+
+section.section1 p {
+  width: 75%;
+}
+
+.img-div {
+  align-items: flex-end;
+}
+h2 {
+  text-align: center;
+  margin: 25px;
+}
+.ul2 {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin: 50px;
+}
+
 /************************* SECTION 2 ***************************/
+
+section.section2 h2 {
+  margin: 20px 0;
+}
 /************************* SECTION 3 ***************************/
 /************************* ASIDE RIGHT ***************************/
 /************************* FOOTER ***************************/
