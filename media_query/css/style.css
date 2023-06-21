@@ -14,6 +14,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 950px;
 }
 div {
   height: 300px;
@@ -30,6 +32,9 @@ div img {
   .container {
     width: 100%;
   }
+  header {
+    background-image: url("../img/MicrosoftTeams-image\ \(9\).png");
+  }
 }
 @media (max-width: 960px) {
   header {
@@ -44,19 +49,23 @@ div img {
 }
 
 figure {
-  margin: auto;
-  width: 200px;
+  /* margin: 15px auto; */
+  width: 300px;
+  height: 300px;
   position: relative;
+}
+
+figure img {
+  height: 100%;
 }
 
 figcaption {
   background-color: white;
   color: black;
   font-style: italic;
-  padding: 15px;
   text-align: center;
 }
-.p {
+.p2 {
   position: absolute;
   right: 20px;
   border-radius: 50%;
@@ -67,9 +76,29 @@ figcaption {
 }
 .p1 {
   position: absolute;
-  bottom: 100px;
-  left: 20px;
+  bottom: -15px;
+  left: 0px;
   padding: 5px 20px;
   background-color: purple;
   color: white;
+}
+
+.line {
+  text-decoration: line-through;
+}
+.fa-solid {
+  position: absolute;
+  top: 25px;
+  right: -5px;
+}
+.relative {
+  position: relative;
+}
+.red {
+  background-color: red;
+  color: white;
+  padding: 5px 11px;
+}
+.prix {
+  color: red;
 }
