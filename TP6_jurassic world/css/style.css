@@ -142,7 +142,7 @@ h1 {
 }
 
 .section1 {
-  width: 600px;
+  width: 750px;
   margin: auto;
 }
 
@@ -158,4 +158,55 @@ h1 {
   background-color: #1c5f81;
   color: white;
   padding: 5px 10px 5px 10px;
+  margin: auto;
+  display: block;
+}
+.bonton1 {
+  background-color: #1c5f81;
+  color: white;
+  padding: 5px 10px 5px 10px;
+}
+h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.section2 div {
+  width: 400px;
+}
+.section2 {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 0;
+}
+ul li {
+  margin: 45px;
+}
+li img {
+  height: 30px;
+}
+footer {
+  background-color: black;
+  height: 500px;
+}
+.footer1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.li1 {
+  color: white;
+  list-style-type: none;
 }
